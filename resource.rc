@@ -1,0 +1,30 @@
+#include "resource.h" 
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.exe.manifest"
+
+IDI_ICON_128 ICON "icon.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "steelswing"
+      VALUE "FileDescription", "The bootstrapper for java."
+      VALUE "FileVersion", "16.06.2023"
+      VALUE "InternalName", "java.exe"
+      VALUE "LegalCopyright", ""
+      VALUE "OriginalFilename", "runjava.exe"
+      VALUE "ProductName", "The bootstrapper for java."
+      VALUE "ProductVersion", "1.0.0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
